@@ -1,0 +1,26 @@
+{
+  "name": "ts-grpc-examples",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.5.3",
+    "google-protobuf": "^3.11.2",
+    "grpc": "^1.24.2",
+    "protobufjs": "^6.8.8"
+  },
+  "devDependencies": {
+    "@types/google-protobuf": "^3.7.2",
+    "@types/node": "^13.5.0",
+    "grpc-tools": "^1.8.1",
+    "grpc_tools_node_protoc_ts": "^2.5.10",
+    "prettier": "^1.19.1",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  },
+  "scripts": {
+    "lint": "prettier -c src/**/*.ts",
+    "lint:fix": "prettier src/**/*.ts --write",
+    "codegen": "./src/static/proto_generate.sh && ./src/dynamic_with_protobufjs/proto_generate.sh"
+  }
+}
