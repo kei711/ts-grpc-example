@@ -14,7 +14,7 @@
     "@types/node": "13.9.3",
     "grpc-tools": "1.8.1",
     "grpc_tools_node_protoc_ts": "2.5.10",
-    "prettier": "1.19.1",
+    "prettier": "2.0.1",
     "ts-node": "8.8.1",
     "typescript": "3.8.3"
   },
