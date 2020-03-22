@@ -1,5 +1,5 @@
 {
   "extends": [
-    "config:base"
+    "github>kei711/renovate-config:all-non-major"
   ]
 }
