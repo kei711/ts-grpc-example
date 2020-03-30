@@ -22,5 +22,8 @@
     "lint": "prettier -c src/**/*.ts",
     "lint:fix": "prettier src/**/*.ts --write",
     "codegen": "./src/static/proto_generate.sh && ./src/dynamic_with_protobufjs/proto_generate.sh"
+  },
+  "resolutions": {
+    "minimist": ">=1.2.3"
   }
 }
