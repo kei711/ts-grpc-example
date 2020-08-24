@@ -866,10 +866,10 @@ glob@^7.0.5, glob@^7.1.3:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
-google-protobuf@3.5.0:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/google-protobuf/-/google-protobuf-3.5.0.tgz#b8cc63c74d83457bd8a9a904503c8efb26bca339"
-  integrity sha1-uMxjx02DRXvYqakEUDyO+ya8ozk=
+google-protobuf@3.12.4:
+  version "3.12.4"
+  resolved "https://registry.yarnpkg.com/google-protobuf/-/google-protobuf-3.12.4.tgz#fd89b7e5052cdb35a80f9b455612851d542a5c9f"
+  integrity sha512-ItTn8YepDQMHEMHloUPH+FDaTPiHTnbsMvP50aXfbI65IK3AA5+wXlHSygJH8xz+h1g4gu7V+CK5X1/SaGITsA==
 
 google-protobuf@^3.11.2:
   version "3.11.2"
@@ -895,12 +895,12 @@ grpc@^1.24.2:
     node-pre-gyp "^0.14.0"
     protobufjs "^5.0.3"
 
-grpc_tools_node_protoc_ts@2.5.11:
-  version "2.5.11"
-  resolved "https://registry.yarnpkg.com/grpc_tools_node_protoc_ts/-/grpc_tools_node_protoc_ts-2.5.11.tgz#2334c09bb1186c38aab538984ecfb3c1f0bae272"
-  integrity sha512-h47COcoJh20fg8fucF1270U3b53xmpnxyo/SlujxEdbxmskjYk8BLd8IpQ0BLZmOozkjJ28zxzBRRadYoAyM9Q==
+grpc_tools_node_protoc_ts@4.1.3:
+  version "4.1.3"
+  resolved "https://registry.yarnpkg.com/grpc_tools_node_protoc_ts/-/grpc_tools_node_protoc_ts-4.1.3.tgz#a54b101a871b9bada02f06e195127adcce82abce"
+  integrity sha512-RTAprNmDJnyiBbGE2byqJWUsB8RCxsDsAQeeH1IS802M7Lt8XovJmP8oVxsovc/OaWGZ1m4ixBxf5cH7jada4A==
   dependencies:
-    google-protobuf "3.5.0"
+    google-protobuf "3.12.4"
     handlebars "4.7.4"
     handlebars-helpers "0.10.0"
 
