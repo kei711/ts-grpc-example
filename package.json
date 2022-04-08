@@ -16,7 +16,7 @@
     "grpc_tools_node_protoc_ts": "2.5.11",
     "prettier": "2.6.2",
     "ts-node": "8.10.2",
-    "typescript": "3.9.10"
+    "typescript": "4.6.3"
   },
   "scripts": {
     "lint": "prettier -c src/**/*.ts",
